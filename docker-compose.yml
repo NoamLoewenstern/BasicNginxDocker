@@ -1,0 +1,6 @@
+web:
+  image: nginx:1.17.9-alpine
+  volumes:
+    - ./src:/usr/share/nginx/html
+  ports:
+    - '8080:80'
